@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Минимальная высота = высота экрана */
+    min-height: 100vh; 
     margin: 0;
 }
 
@@ -57,11 +57,11 @@ body {
 }
 
 .green-box {
-    width: 50%; /* Задаем ширину */
-    max-width: 600px; /* Ограничиваем максимальную ширину */
-    background-color: white; /* Светло-зелёный фон */
-    color: #008000; /* Тёмно-зелёный текст */
-    border: 2px dashed #008000; /* Пунктирная граница */
+    width: 50%; 
+    max-width: 600px; 
+    background-color: white; 
+    color: #008000; 
+    border: 2px dashed #008000; 
     padding: 20px;
     text-align: center;
     position: absolute;

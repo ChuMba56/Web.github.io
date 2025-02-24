@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Web.github.io",
+			"path": "."
+		},
+		{
+			"name": "Web",
+			"path": "../Web"
+		},
+		{
+			"name": "Lab_2",
+			"path": "../Lab_2"
+		}
+	],
+	"settings": {}
+}
