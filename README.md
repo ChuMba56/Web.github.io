@@ -1,4 +1,4 @@
-# Посилання на сайт: https://chumba56.github.io/Web.github.io/
+# Посилання на сайт: [https://chumba56.github.io/Web.github.io/](https://chumba56.github.io/Web.github.io/)
 ## 1. Меню
 ![Screenshot](https://github.com/user-attachments/assets/28ae2733-0b44-4924-a4d8-b8c593b561e8)
 ## 2. Текст
