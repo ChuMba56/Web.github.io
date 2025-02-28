@@ -1,8 +1,9 @@
 # Посилання на сайт: [https://chumba56.github.io/Web.github.io/](https://chumba56.github.io/Web.github.io/)
 ## 1. Меню
-![Screenshot](https://github.com/user-attachments/assets/28ae2733-0b44-4924-a4d8-b8c593b561e8)
-## 2. Текст
-![Screenshot](https://github.com/user-attachments/assets/41723cdf-16ca-47cb-8bc3-96c8c07f7ea5)
+![Screenshot](https://github.com/user-attachments/assets/8d61032e-2316-473e-b52b-a9a43bd2f33f)
+## 2. Реклама
+![Screenshot](https://github.com/user-attachments/assets/5ac5738b-3623-4178-9115-348792d44fb2)
 ## 3. Загальний вигляд сайту
-![Screenshot](https://github.com/user-attachments/assets/484ef37e-ee8f-40c4-aabd-94a370c4c1d8)
+![Screenshot](https://github.com/user-attachments/assets/b1fcf369-f5c7-4546-979c-b995cc6907da)
+
 
