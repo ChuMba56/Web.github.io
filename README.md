@@ -1,8 +1,9 @@
 # Посилання на сайт: https://chumba56.github.io/Web.github.io/
 ## 1. Меню
-![Screenshot](https://github.com/user-attachments/assets/28ae2733-0b44-4924-a4d8-b8c593b561e8)
-## 2. Текст
-![Screenshot](https://github.com/user-attachments/assets/41723cdf-16ca-47cb-8bc3-96c8c07f7ea5)
-## 3. Загальний вигляд сайту
-![Screenshot](https://github.com/user-attachments/assets/484ef37e-ee8f-40c4-aabd-94a370c4c1d8)
+![image](https://github.com/user-attachments/assets/6e41cc6f-2b73-4fde-ad08-8b799042bf67)
+## 2. Картки фільмів
+![image](https://github.com/user-attachments/assets/ef9b3841-8b3c-4b00-a057-1abd899cfb33)
+## 3. Загальний інформація про фільми
+![image](https://github.com/user-attachments/assets/3fb7074f-65fe-4a35-8436-ebcad82c8b9e)
+
 
