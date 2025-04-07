@@ -1,58 +1,99 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Фільми</title>
-    <link rel="stylesheet" href="styles.css">
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap & jQuery -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+    .bg-1 {
+      background-color: #1abc9c;
+      color: #ffffff;
+    }
+    .bg-2 {
+      background-color: #474e5d;
+      color: #ffffff;
+    }
+    .bg-3 {
+      background-color: #ffffff;
+      color: #555555;
+    }
+  </style>
 </head>
+
 <body>
 
-    <!-- Меню -->
-    <nav class="navbar">
-        <ul>
-            <li><a href="#">Бойовики</a></li>
-            <li><a href="#">Фантастика</a></li>
-            <li><a href="#">Комедії</a></li>
-        </ul>
-    </nav>
-
-    <!-- Карточки фильмов -->
-    <div class="movies">
-        <div class="movie-card" onclick="toggleInfo(this)">
-            <img src="images/19479170.webp" alt="Фільм 1">
-            <div class="movie-info">
-                <h3>Гарри Поттер</h3>
-                <p>Короткий опис фільму 1.</p>
-                <div class="extra-info">
-                    <p>Жизнь десятилетнего Гарри Поттера нельзя назвать сладкой: его родители умерли, едва ему исполнился год, а от дяди и тётки, взявших сироту на воспитание, достаются лишь тычки да подзатыльники. Но в одиннадцатый день рождения Гарри всё меняется. Странный гость, неожиданно появившийся на пороге, приносит письмо, из которого мальчик узнаёт, что на самом деле он чистокровный волшебник и принят в Хогвартс — школу магии. А уже через пару недель Гарри будет мчаться в поезде Хогвартс-экспресс навстречу новой жизни, где его ждут невероятные приключения, верные друзья и самое главное — ключ к разгадке тайны смерти его родителей.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="movie-card" onclick="toggleInfo(this)">
-            <img src="images/images (2).jpg" alt="Фільм 2">
-            <div class="movie-info">
-                <h3>Россомаха</h3>
-                <p>Короткий опис фільму 2.</p>
-                <div class="extra-info">
-                    <p>История о неистовом и романтичном прошлом Росомахи, его сложных отношениях с Виктором Кридом и о зловещей программе Оружие Х. При этом Росомаха встречается со многими мутантами, и узнает несколько легенд о мире Людей Икс.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="movie-card" onclick="toggleInfo(this)">
-            <img src="images//images.jpg" alt="Фільм 3">
-            <div class="movie-info">
-                <h3>Константин</h3>
-                <p>Короткий опис фільму 3.</p>
-                <div class="extra-info">
-                    <p>Джону Константину удалось не только побывать в аду, но и вернуться обратно. Родившись с неугодным самому себе талантом — способностью распознавать помесь ангелов и демонов, которые бродят по земле в облике людей, — Константин под давлением обстоятельств пытается совершить самоубийство, лишь бы избавиться от мучительных видений. Но неудачно. Воскрешенный против собственной воли он снова оказывается в мире живых. Теперь, отмеченный печатью суицида и получивший временное право на жизнь, он патрулирует границу, разделяющую рай и ад, тщетно надеясь на обретение спасения путем сражения с земными ставленниками зла.</p>
-                </div>
-            </div>
-        </div>
+<!-- Навігація -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">WHO</a></li>
+        <li><a href="#">WHAT</a></li>
+        <li><a href="#">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <script src="script.js"></script>
+<!-- Блок 1 -->
+<div class="container-fluid bg-1 text-center">
+  <h3>Who Am I? <span class="badge">New</span></h3>
+  <img src="images/bird.jpg" class="img-responsive img-circle" style="display:inline" alt="Bird">
+  <h3>I'm an adventurer</h3>
+</div>
+
+<!-- Блок 2 -->
+<div class="container-fluid bg-2 text-center">
+  <h3>What Am I?</h3>
+  <p>Lorem ipsum..</p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
+
+<!-- Блок 3 -->
+<div class="container-fluid bg-3 text-center">
+  <h3>Where To Find Me?</h3>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum.. <span class="badge">1</span></p>
+      <img src="images/bird1.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Lorem ipsum.. <span class="badge">2</span></p>
+      <img src="images/bird2.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Lorem ipsum.. <span class="badge">3</span></p>
+      <img src="images/bird3.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Пагінація -->
+<div class="container text-center" style="margin-top: 20px;">
+  <ul class="pagination">
+    <li><a href="#">«</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">»</a></li>
+  </ul>
+</div>
+
 </body>
 </html>
